@@ -1,0 +1,102 @@
+body{
+    color: rgb(237, 232, 232);
+    margin: 0px;
+    padding: 0px;
+    background: url('img/nexon-dark-banner-march-2024.webp');
+    
+}
+
+.left{
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 18px;
+}
+
+.left img{
+    aspect-ratio: 2/1;
+    mix-blend-mode: color-dodge;
+}
+
+.mid{
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+}
+
+.right{
+    position: absolute;
+    right: 34px;
+    top: 18px;
+    display: inline-block;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+}
+
+.navbar li a{
+    color: rgb(246, 241, 241);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navbar li a:hover, .navbar li a active{
+    text-decoration: underline;
+    color: grey;
+}
+
+.left img{
+    width: 100px;
+}
+
+.left div{
+    text-align: center;
+}
+
+.btn{
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding-left: 4px 14px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: rgb(134, 130, 130);
+}
+
+.container{
+    margin: 106px 80px;
+    padding: 75px;
+    width: 34%;
+    border-radius: 28px;
+}
+
+
+
+.form-n{
+    width: 500px;
+    padding: 1px; 
+    border: 2px solid black;
+    margin: 13px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.container button{
+    display: block;
+    width: 101%;
+    margin: auto;
+}
